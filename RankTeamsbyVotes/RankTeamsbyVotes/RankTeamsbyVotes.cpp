@@ -8,7 +8,7 @@
 
 using namespace std;
 
-uint8_t chartoIndexMapping(char newChar)
+uint16_t chartoIndexMapping(char newChar)
 {
 	//cast the char into decimal and subtract 65 which is the value of A
 	//So our 0 index is A, B is 1 and so on
